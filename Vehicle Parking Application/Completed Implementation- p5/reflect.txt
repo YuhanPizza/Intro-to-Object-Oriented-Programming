@@ -1,0 +1,32 @@
+/*
+*****************************************************************************
+                          Milestone 5
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+	In this project I implemented a Parking Program. Implementing it took a total 
+of 5 milestones and milestone 5 having multiple parts, I had time to review using a lot
+ of what I learned in class.
+
+	During the first milestone, I implemented functions that would serve as the OS/skeleton
+of the program and other functions that use iostream's input and output operator. It was a relatively
+simple process. But as the Project continued to grow it was harder to keep track of all the functions
+I have made but by adding comments to lines it would help me keep track of what certain functions I needed.
+
+	The second milestone used the concept of friend class. And forward declaring Menu class to be added
+as a friend class to MenuItem. So that it will have access to Menu Items members. In the third milestone, 
+Created class called Vehicles and it was the base class to be used in future milestone for both Motorcycle 
+and Car classes. During the 4th milestone we added Write Type function as a pure virtual for Vehicles but is 
+defined in the derived classes motorcycle and car classes.
+
+	For the last Milestone we Combined Milestone 2 and Milestone 4 into one cohesive programming and added code
+to the incomplete functions in milestone 2. This Milestone was extremely time consuming and tricky for me especialy 
+keeping track of all objects, functions etc.. from previous milestone and blend them all together. I think I have 
+learned a lot from this semester of OOP244.

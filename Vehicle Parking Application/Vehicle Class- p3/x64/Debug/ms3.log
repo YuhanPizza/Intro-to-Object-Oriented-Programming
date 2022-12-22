@@ -1,0 +1,7 @@
+﻿  ReadWritable.cpp
+  Vehicle.cpp
+C:\Users\loren\OneDrive\Desktop\OOP\Workshops\Milestones\ms3\Vehicle.cpp(66,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\loren\OneDrive\Desktop\OOP\Workshops\Milestones\ms3\Vehicle.cpp(78,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  VehicleTester.cpp
+  Generating Code...
+  ms3.vcxproj -> C:\Users\loren\OneDrive\Desktop\OOP\Workshops\Milestones\ms3\x64\Debug\ms3.exe

@@ -1,0 +1,36 @@
+/*
+*****************************************************************************
+			 Workshop - #5 
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Decleration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+What I Learned: 
+
+	1. Operator Overloading
+		An overloaded operator is called an operator function, they act as functions that use
+	operators when these operator functions are declared in a class they can only be used inside that 
+	class unless they are of a friend function type.How they work is you declare an operator 
+	function with the keyword operator preceding the operator. Overloaded operators are distinct 
+	from overloaded functions, but like overloaded functions, they are distinguished by the number 
+	and types of operands used with the operator(unique function signature).
+
+
+	2. Friend function type
+		A friend function is a function that is specified outside a class but has the ability to access 
+	the class members' protected and private data. A friend can be a member's function, function template, 
+	or function, or a class or class template, in which case the entire class and all of its members are friends.
+	You need to put the keyword friend when it is declared inside a class (to give it access to its members) and also 
+	redeclare it outside the class.
+
+What I found most challenging:
+	
+	The scope of this workshop was challenging but due to the research ive done before hand and that ive already learned 
+about function overloading the concept was easier to grasp if you approach the overloading operator as a simple overloaded function.
+And that friend/helper are functions that can be used to access private class members while also working as a function outside of the 
+class.

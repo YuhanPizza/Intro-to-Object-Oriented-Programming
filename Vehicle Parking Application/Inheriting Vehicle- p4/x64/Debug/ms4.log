@@ -1,0 +1,10 @@
+﻿  Car.cpp
+  Motorcycle.cpp
+  main.cpp
+  ReadWritable.cpp
+  Utils.cpp
+  Vehicle.cpp
+C:\Users\loren\OneDrive\Desktop\OOP\Workshops\Milestones\ms4\Vehicle.cpp(72,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\loren\OneDrive\Desktop\OOP\Workshops\Milestones\ms4\Vehicle.cpp(84,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  ms4.vcxproj -> C:\Users\loren\OneDrive\Desktop\OOP\Workshops\Milestones\ms4\x64\Debug\ms4.exe

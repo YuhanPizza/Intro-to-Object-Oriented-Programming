@@ -1,0 +1,40 @@
+/*
+*****************************************************************************
+                          Workshop - #2 (P2)
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Decleration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+1.Dynamic Memory Allocation
+What it is: I learned how to properly allocate memory dynamically from heap; this type of 
+memory allocation is allocating memory after the program has ran by requesting 
+the operating system to allocate memory from heap;
+
+Dynamic Memory vs Static Memory:
+Static Memory is basically hard coding memory in the program this memory allocation does
+not change while the program is running; where as Dynamic Memory is allocating memory needed
+while the file is running the memory requested from the OS can be changed throughout the 
+program.
+
+2. Deallocating Memory
+This is clearing the Dynamically allocated memory to avoid memory leaks.
+This is important because systems have a limited amount of memory and memory is costly.
+when you don't deallocate memory the memory usage is always critically increasing. 
+
+3.Overloading functions,
+Overloading functions are unique depending on the parameters it accepts when over loading functions
+the program will go through all similarly named functions and choose the function which accepts
+the needed parameters to implement the function properly; 
+
+4.Passing by reference vs Passing by reference to pointer;
+when passing by reference
+you are basically using the same variable/object it that object is a pointer and needs proper memory allocation
+it does pass the parameter of passing by reference. 
+It amazed me how you cant pass a reference of Struct Assessment* a; to a function that only accepts references;
+it can only pass by and be implemented by a function that accepts reference to pointers;  

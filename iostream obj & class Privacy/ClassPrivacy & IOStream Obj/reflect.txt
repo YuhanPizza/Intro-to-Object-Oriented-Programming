@@ -1,0 +1,33 @@
+/*
+*****************************************************************************
+						  Workshop - #3 (P2)
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Decleration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+What I have Learned Through This Workshop:
+
+1. Class Privacy 
+What is a private class in C++?
+The class members declared as private(all class members are private
+by default) can be accessed only by the member functions inside the class. 
+They are not allowed to be accessed directly by any object or function 
+outside the class. Only the member functions are allowed to access the private 
+data members of the class.
+
+How is this helpful?
+It specifies access level and provides programmers with control over 
+which variables and methods are hidden in a class. It prevents those 
+members from being altered outside of the member functions. 
+
+2. Format Display Method.
+This way of formatting the output of a file helps create a concise and uniform 
+format. To make the output look more desirable and understandable. Compared 
+to manually spacing it out, this way of formatting files will always uniformly space
+them allocate them properly regardless of the length of the variable. 

@@ -1,0 +1,56 @@
+/*
+*****************************************************************************
+                          Workshop - #6
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Decleration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+1. Shallow Copy and Deep Copy
+
+I was able to practice how to copy an object during this workshop.There are two ways to copy an object. Copy using a 
+constructor or by overloading an operator I used the assignment operator. In the process of copying, there are two types of copies shallow and deep copies. However, 
+the disadvantage of shallow copying is that if a variable with dynamic memory is copied, a memory leak will occur later when deleting the object 
+which the copy is pointing to. This is because when copying, only pointers are copied, not values. So I used deep copy in this workshop. 
+The copy constructor receives a class object reference as a parameter such as Basket(Basket &Org). The values of the references received are then copied to the 
+current object using a deep copy. I also checked if the object is the Original and setting the copy as "false" for added functionality to the program by checking if it is 
+a copy before sorting and checking if it is the original before saving. The method using the operator assignment operator also receives a class type object reference as a parameter, 
+the same as a copy constructor. For instance, Basket& operator=(Basket &Org). The difference between them is that the operator has a return type which is the current object reference.  
+
+
+2. What I learned
+I have solidified my knowledge on how to load and save files. In this workshop, I did not just read and write files,
+Saving files.
+void Numbers::save() {
+       if ((m_isOriginal == true) && (!isEmpty())) {
+           ofstream ofs(m_filename, std::ofstream::trunc);
+           for (int i = 0; i < m_numCount; i++) {
+               ofs <<fixed << setprecision(2)<< m_numbers[i] << "\n";
+           }
+       }
+   }
+
+Loading files.
+   bool Numbers::load() {
+    int i = 0;
+        if (m_numCount > 0) {
+        m_numbers = new double[m_numCount];
+        ifstream input;
+        input.open(m_filename, std::ifstream::in);
+            while (!input.fail()&& i < m_numCount) {
+                input >> m_numbers[i];
+                //cout << m_numbers[i] << "\n";
+                i++;
+            }
+        input.close();
+        }
+         return i == m_numCount;
+   }
+but overloaded insertions and extraction operators. At this time, it received both ostream and istream as parameters 
+and received object references. The two forms were used as "helper functions" such as std::ostream& operator<<(std::ostream& os, const Basket& N);
+and std::istream& operator>>(std::istream& istr, Numbers& N). These operators were passed as a parameter to a function defined within the class. 

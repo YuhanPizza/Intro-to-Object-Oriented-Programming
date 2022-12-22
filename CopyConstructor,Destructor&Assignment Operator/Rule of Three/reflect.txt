@@ -1,0 +1,27 @@
+/*
+*****************************************************************************
+                          Workshop - #9
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+For this workshop, I had the opportunity to practice the concepts and syntax that I have learned among the things I have learned this semester.
+
+1. What i found difficult:
+	The implementation of reading and writing files. And this time, I did not use the getline() function of <string> that I used often. 
+	Because I had to read character by character in the file. Even the new line "\n". So I used the get() function to read character by 
+	character until I reached the end of the file. I dynamically allocated member variables that are character pointer type to save the file. 
+'	Writing or reading files was implemented by overloading the operator "<<" and ">>" as using accessor/mutator functions. I also overloaded 
+	the index and assignment operator.
+
+2.What i Learned or Learned more of:
+	I believe I successfully applied my knowledge on the rule of three. Which is a rule that if the destructor, copy constructor, and copy 
+	assignment operator are defined, all of them must be defined. Basically, c++ class library provides default definitions of the three functions. 
+	But if I use dynamic allocation variables, I will encounter memory leak. This is because the default copy constructor or copy assignment operator 
+	performs shallow copies. Also, the destructor does not delete the allocated memory. For these reasons, I safely copied the allocated memory and 
+	safely delete it before it was terminated. 

@@ -1,0 +1,6 @@
+﻿  Mark.cpp
+  main.cpp
+  Generating Code...
+C:\Users\loren\OneDrive\Desktop\OOP\Workshops\W5\ws5p2\Mark.cpp(128): warning C4172: returning address of local variable or temporary: j
+C:\Users\loren\OneDrive\Desktop\OOP\Workshops\W5\ws5p2\Mark.cpp(120): warning C4172: returning address of local variable or temporary: j
+  DIY.vcxproj -> C:\Users\loren\OneDrive\Desktop\OOP\Workshops\W5\ws5p2\x64\Debug\DIY.exe

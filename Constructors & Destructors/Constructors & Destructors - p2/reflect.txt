@@ -1,0 +1,45 @@
+/*
+*****************************************************************************
+                          Workshop - #4
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Decleration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+1.Constructors:
+	I have learned that Constructors are implicitly called when its not overloaded. 
+	Counstructors are always built in a class type even though its not declared and 
+	even if its not defined.
+Overloading Constructors:
+	When overloading constructors they are no longer implicitly called but are excplicitly called
+In order to use the proper constructors you must pass in the required arguments for its declared parameters;
+
+2.Destructors:
+	Destructors like Constructors are built in a class type even though its not declared and it will
+run when a class member function goes out of scope or if it is excplicitly called.
+Although unlike Constructors it cannot be overloaded, Destructors are very helpful incase of protecting your 
+program from memory leaks by simply deallocating memory inside it so when the program ends it deallocates 
+dynamically created memory.
+
+3.Ostream and Istream Objects (output stream and input stream)
+ 	I read that cout and cin are objects of classes std::istream and std::ostream.
+When my professor explained on how to use Ostream and Istream reference as object types and returns;
+using extraction operator in order to maximize its efficiency and simply calling it and it will return 
+the referenced object type upon completion of the function. simply calling this function will display the 
+needed members using Ostream object reference return; (the returned display will be based on your code) same with 
+the istream object reference returned (will allocate values to your variables depending on your code);
+
+4.Difficulties in this Workshop:
+	What I found most difficult in this workshop was understanding the concept of an ostream object and an istream
+object. But after reading more about it and watching youtube videos I have learned about its functionalities. 
+	
+	The most challenging part of this was workshop part 2 considering it did not give us exact details on what we should 
+do and create but instead gave suggestions on what functions need to be created and to check which where implemented in the 
+main.cpp file. But because I have learned to follow code and to check the implementation of the functions I was able to 
+fully adapt my code to match the desired output.
+

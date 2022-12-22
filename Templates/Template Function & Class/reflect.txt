@@ -1,0 +1,38 @@
+/*
+*****************************************************************************
+                          Workshop - #10
+Full Name  :Lorenz Alvin Tubo
+Student ID#:109934224
+Email      :ltubo@myseneca.ca
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+1.What I learned?
+
+      > During this workshop, I think I have learn more about template. For me personally 
+	Template is very difficult to grasp but the Idea of making a variable/class or whatever be able
+	to be treated as another typename is amazing. However, the professors notes and example programs
+	Helped me alot in understanding it. During the lecture I was always left puzzled but when doing the workshop
+	and looking at sample code from the prof I think I attained better understanding of templates.
+
+2.How I Made the Workshop
+
+      > The template function is "bool search (Collection <T1> &src_obj, const T1 *src_arr, int src_num, T2 src_key). 
+	Collection is a template Class and it receives a Car or Student or Employee class (three different class types). 
+	The collection and array use the same type name. The data was then added using the template member function defined 
+	in the template collection class. the key value maybe different or similar type from class to class, so I used another type 
+	name.The types are then determined during the compilation phase. Then, a "=="(equality operator) is called for each 
+	class to compare if it matches. If it matches, call the template function "add" in the Collection class to add the data from the last index
+	member of the array.
+
+3.Conclusion :
+
+      > Using templates gives the advantage of being able to use different types freely in functions or classes. However, 
+	one more lesson is that when multiple types of classes are implemented as a function of a template, the abstract base class is 
+	first implemented, then inherited as multiple types of classes, and finally implemented. Also, the template is difficult to 
+	debug because the type is determined during the compilation phase. Therefore, you have to handle the code carefully when you are making it.
+	As it might cause difficulties. I may have grasped the concept better although not fully with the help of this workshop.
